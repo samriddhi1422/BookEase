@@ -1,0 +1,80 @@
+export const doctors=[
+  {
+    id: '1',
+    name: 'Dr. Sarah Johnson',
+    specialty: 'Cardiology',
+    image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    rating: 4.8,
+    experience: 12,
+    bio: 'Dr. Sarah Johnson is a renowned cardiologist with over 12 years of experience in treating heart conditions. She specializes in preventive cardiology and non-invasive cardiac procedures.',
+    education: ['MD from Harvard Medical School', 'Residency at Mayo Clinic', 'Fellowship in Interventional Cardiology'],
+    availableSlots: ['09:00 AM', '10:30 AM', '02:00 PM', '03:30 PM', '05:00 PM'],
+    fee: 150,
+    location: 'New York, NY'
+  },
+  {
+    id: '2',
+    name: 'Dr. Michael Chen',
+    specialty: 'Dermatology',
+    image: 'https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    rating: 4.9,
+    experience: 8,
+    bio: 'Dr. Michael Chen is a board-certified dermatologist specializing in both medical and cosmetic dermatology. He has extensive experience in treating skin conditions and aesthetic procedures.',
+    education: ['MD from Stanford University', 'Dermatology Residency at UCSF', 'Fellowship in Mohs Surgery'],
+    availableSlots: ['08:00 AM', '09:30 AM', '11:00 AM', '01:30 PM', '04:00 PM'],
+    fee: 120,
+    location: 'San Francisco, CA'
+  },
+  {
+    id: '3',
+    name: 'Dr. Emily Rodriguez',
+    specialty: 'Pediatrics',
+    image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    rating: 4.7,
+    experience: 10,
+    bio: 'Dr. Emily Rodriguez is a compassionate pediatrician dedicated to providing comprehensive healthcare for children from infancy through adolescence.',
+    education: ['MD from Johns Hopkins University', 'Pediatrics Residency at Children\'s Hospital', 'Fellowship in Pediatric Endocrinology'],
+    availableSlots: ['08:30 AM', '10:00 AM', '11:30 AM', '02:30 PM', '04:30 PM'],
+    fee: 100,
+    location: 'Los Angeles, CA'
+  },
+  {
+    id: '4',
+    name: 'Dr. David Thompson',
+    specialty: 'Orthopedics',
+    image: 'https://images.pexels.com/photos/5452274/pexels-photo-5452274.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    rating: 4.6,
+    experience: 15,
+    bio: 'Dr. David Thompson is an experienced orthopedic surgeon specializing in sports medicine and joint replacement procedures.',
+    education: ['MD from UCLA Medical School', 'Orthopedic Surgery Residency', 'Sports Medicine Fellowship'],
+    availableSlots: ['07:00 AM', '09:00 AM', '11:00 AM', '01:00 PM', '03:00 PM'],
+    fee: 180,
+    location: 'Chicago, IL'
+  },
+  {
+    id: '5',
+    name: 'Dr. Lisa Wang',
+    specialty: 'Neurology',
+    image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    rating: 4.8,
+    experience: 11,
+    bio: 'Dr. Lisa Wang is a neurologist with expertise in treating neurological disorders including epilepsy, migraines, and movement disorders.',
+    education: ['MD from Yale Medical School', 'Neurology Residency at Mass General', 'Fellowship in Epilepsy'],
+    availableSlots: ['08:00 AM', '10:00 AM', '12:00 PM', '02:00 PM', '04:00 PM'],
+    fee: 160,
+    location: 'Boston, MA'
+  },
+  {
+    id: '6',
+    name: 'Dr. James Miller',
+    specialty: 'Internal Medicine',
+    image: 'https://images.pexels.com/photos/6129967/pexels-photo-6129967.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2',
+    rating: 4.5,
+    experience: 18,
+    bio: 'Dr. James Miller is an internal medicine physician with extensive experience in preventive care and managing chronic conditions.',
+    education: ['MD from Northwestern University', 'Internal Medicine Residency', 'Board Certified in Internal Medicine'],
+    availableSlots: ['09:00 AM', '11:00 AM', '01:30 PM', '03:30 PM', '05:30 PM'],
+    fee: 110,
+    location: 'Houston, TX'
+  }
+];
