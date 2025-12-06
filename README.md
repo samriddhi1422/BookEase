@@ -35,7 +35,6 @@ Admin credentials are not shared publicly for security reasons. Demo access can 
 <img width="1920" height="1020" alt="Screenshot 2025-12-06 141931" src="https://github.com/user-attachments/assets/eae90db6-38f8-49a1-83ad-d7e079aeb3bf" />
 
 <img width="1920" height="1020" alt="Screenshot 2025-12-06 144601" src="https://github.com/user-attachments/assets/856ae3e2-af2f-4065-b934-f3b0d3c1f9c2" />
-<img width="1920" height="1020" alt="Screenshot 2025-12-06 145149" src="https://github.com/user-attachments/assets/83012af9-ad86-46e7-8780-893ae8e0a3c2" />
 <img width="1920" height="1020" alt="Screenshot 2025-12-06 141941" src="https://github.com/user-attachments/assets/bc9f6092-3669-4149-b1fe-cae6ecc3f70b" />
 
 ## 🚀 Installation
