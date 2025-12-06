@@ -7,7 +7,7 @@ function Appointments() {
     
   const allAppointments = async () => {
   try {
-    const res = await fetch('http://localhost:4000/api/admin/appointments', {
+    const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/admin/appointments', {
       headers: {
         "Authorization": `Bearer ${token}`
       }
@@ -43,7 +43,7 @@ useEffect(() => {
   const markCompleted = async (id) => {
   try {
     const res = await fetch(
-      `http://localhost:4000/api/admin/appointments/${id}/complete`,
+      `https://bookease-backend-ju5w.onrender.com/api/admin/appointments/${id}/complete`,
       {
         method: "PUT",
         headers: {
@@ -74,7 +74,7 @@ useEffect(() => {
 const cancelAppointment = async (id) => {
   try {
     const res = await fetch(
-      `http://localhost:4000/api/admin/cancel/${id}`,
+      `https://bookease-backend-ju5w.onrender.com/api/admin/cancel/${id}`,
       {
         method: "PUT",
          headers: {

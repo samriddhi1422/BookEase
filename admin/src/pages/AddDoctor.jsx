@@ -38,7 +38,7 @@ function AddDoctor() {
     if (docImage) {
       formData.append("image", docImage);
 
-      const res = await fetch('http://localhost:4000/api/admin/add-doctor',{
+      const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/admin/add-doctor',{
        method:"POST",
          headers: {
     Authorization: `Bearer ${token}`, 

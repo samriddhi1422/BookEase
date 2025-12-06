@@ -18,7 +18,7 @@ const [imageFile, setImageFile] = useState(null);
 console.log(token)
   useEffect(() => {
   const fetchProfile = async () => {
-    const res = await fetch("http://localhost:4000/api/patient/userData", {
+    const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/patient/userData", {
       headers: {
         Authorization: `Bearer ${token}`
       }
@@ -51,7 +51,7 @@ console.log(token)
    
     }
 
-   const res = await fetch("http://localhost:4000/api/patient/updateUserData", {
+   const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/patient/updateUserData", {
       method: "POST",
       body: formData, 
       headers: {

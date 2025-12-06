@@ -13,7 +13,7 @@ const [loading, setLoading] = useState(true);
 
  const allDoctors = async () => {
   try {
-    const res = await fetch('http://localhost:4000/api/admin/getAllDoctors', {
+    const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/admin/getAllDoctors', {
       headers: {
         "Authorization": `Bearer ${token}`
       }
@@ -43,7 +43,7 @@ const [loading, setLoading] = useState(true);
 
   const changeAvailablity = async(docId)=>{
 try {
-  const res = await fetch("http://localhost:4000/api/admin/change-availablity", {
+  const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/admin/change-availablity", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

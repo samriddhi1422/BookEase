@@ -23,7 +23,7 @@ export default function DoctorProfile() {
  
   const fetchProfile = async () => {
     try {
-      const res = await fetch("http://localhost:4000/api/doctor/profile", {
+      const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/doctor/profile", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -41,7 +41,7 @@ export default function DoctorProfile() {
  
   const handleSave = async () => {
     try {
-      const res = await fetch("http://localhost:4000/api/doctor/update", {
+      const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/doctor/update", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",

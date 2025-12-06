@@ -24,7 +24,7 @@ export const getDoctorsData = () => {
     dispatch(setLoading(true));
 
     try {
-      const res = await fetch('http://localhost:4000/api/patient/doctorlist');
+      const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/patient/doctorlist');
       const data = await res.json();
 
       if (data.success) {

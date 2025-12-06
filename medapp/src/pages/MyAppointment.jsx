@@ -9,7 +9,7 @@ export default function MyAppointment() {
  const cancelAppointment = async (id) => {
   try {
     const res = await fetch(
-      `http://localhost:4000/api/patient/cancel/${id}`,
+      `https://bookease-backend-ju5w.onrender.com/api/patient/cancel/${id}`,
       {
         method: "PUT",
          headers: {
@@ -40,7 +40,7 @@ export default function MyAppointment() {
   useEffect(() => {
     const fetchAppointments = async () => {
       try {
-        const res = await fetch("http://localhost:4000/api/patient/getAppointmentList", {
+        const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/patient/getAppointmentList", {
           method: "GET",
            headers: {
         Authorization: `Bearer ${token}`
@@ -62,7 +62,7 @@ export default function MyAppointment() {
 
   const appointmentRazorpay = async (appointmentId) => {
   try {
-    const res = await fetch("http://localhost:4000/api/patient/payment", {
+    const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/patient/payment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

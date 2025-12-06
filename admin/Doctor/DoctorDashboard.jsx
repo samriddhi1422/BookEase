@@ -26,7 +26,7 @@ function DoctorDashboard() {
   
     const fetchDashboard = async () => {
       try {
-        const res = await fetch("http://localhost:4000/api/doctor/getappointments", {
+        const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/doctor/getappointments", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -46,7 +46,7 @@ function DoctorDashboard() {
     };
     const fetchStats = async () => {
     try {
-      const res = await fetch("http://localhost:4000/api/doctor/stats", {
+      const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/doctor/stats", {
         headers: {
           Authorization: `Bearer ${token}`,
         },

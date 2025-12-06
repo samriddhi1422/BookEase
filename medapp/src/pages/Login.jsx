@@ -20,7 +20,7 @@ const navigate = useNavigate();
   if(state=='signUp'){
     try {
        
-        const res = await fetch('http://localhost:4000/api/patient/register', {
+        const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/patient/register', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ email, password ,name}),
@@ -56,7 +56,7 @@ const navigate = useNavigate();
 
   if(state!='signUp'){
     try {
-    const res = await fetch("http://localhost:4000/api/patient/login", {
+    const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/patient/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),

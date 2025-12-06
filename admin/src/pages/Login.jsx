@@ -21,7 +21,7 @@ const navigate = useNavigate();
 
     try {
       if(state=='Admin'){
-  const res = await fetch('http://localhost:4000/api/admin/login', {
+  const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/admin/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
@@ -44,7 +44,7 @@ const navigate = useNavigate();
 }
       }
       else{
-         const res = await fetch('http://localhost:4000/api/doctor/login', {
+         const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/doctor/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),

@@ -8,7 +8,7 @@ function DoctorAppointmnets() {
         
       const allAppointments = async () => {
       try {
-        const res = await fetch('http://localhost:4000/api/doctor/getappointments', {
+        const res = await fetch('https://bookease-backend-ju5w.onrender.com/api/doctor/getappointments', {
           headers: {
             "Authorization": `Bearer ${token}`
           }
@@ -33,7 +33,7 @@ function DoctorAppointmnets() {
     const markCompleted = async (id) => {
       try {
         const res = await fetch(
-          `http://localhost:4000/api/doctor/appointments/${id}/complete`,
+          `https://bookease-backend-ju5w.onrender.com/api/doctor/appointments/${id}/complete`,
           {
             method: "PUT",
             headers: {
@@ -64,7 +64,7 @@ function DoctorAppointmnets() {
     const cancelAppointment = async (id) => {
       try {
         const res = await fetch(
-          `http://localhost:4000/api/doctor/cancel/${id}`,
+          `https://bookease-backend-ju5w.onrender.com/api/doctor/cancel/${id}`,
           {
             method: "PUT",
              headers: {

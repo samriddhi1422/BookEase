@@ -55,7 +55,7 @@ if (!doctor) return <p>Doctor not found.</p>;
   setShowBookingModal(true); 
 
   try {
-    const res = await fetch("http://localhost:4000/api/patient/bookAppointment", {
+    const res = await fetch("https://bookease-backend-ju5w.onrender.com/api/patient/bookAppointment", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
