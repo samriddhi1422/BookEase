@@ -10,7 +10,7 @@ function DoctorCard({ doctor ,onToggle}) {
   {/* Doctor Image */}
   <div
     className="
-      w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full overflow-hidden shadow-md
+      w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full overflow-hidde shadow-md
       ring-2 ring-blue-200
     "
   >
