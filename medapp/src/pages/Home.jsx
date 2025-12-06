@@ -39,7 +39,9 @@ function Home() {
               <Calendar className="h-5 w-5 mr-2" />
               Book Appointment Now
             </Link>
+             
           </div>
+          
         </div>
       </section>
 

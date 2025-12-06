@@ -24,6 +24,7 @@ const dispatch = useDispatch();
     { path: "/", label: "Home" },
     { path: "/doctors", label: "All Doctors" },
     { path: "/about", label: "About" },
+    
   ];
 
   return (
@@ -53,7 +54,16 @@ const dispatch = useDispatch();
                 {item.label}
               </Link>
             ))}
+             <a
+  href="https://bookease-admin.onrender.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className=" hover:text-blue-600 cursor-pointer transition-colors duration-200 block text-sm border-1 border-gray-600 rounded-4xl px-3 py-1"
+>
+  Admin Panel
+</a>
           </div>
+        
 
           {/* Desktop User Actions */}
           {token ? (
@@ -141,7 +151,16 @@ const dispatch = useDispatch();
               >
                 {item.label}
               </Link>
+              
             ))}
+             <a
+  href="https://bookease-admin.onrender.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className=" hover:text-blue-600 cursor-pointer transition-colors duration-200 block text-sm border-1 border-gray-600 rounded-4xl px-3 py-1"
+>
+  Admin Panel
+</a>
 
             {token ? (
               <div className="border-t border-gray-200 mt-3 pt-3 flex flex-col space-y-2">
